@@ -57,13 +57,13 @@
 
 
     </dependencies>
-	<distributionManagement>
+    <distributionManagement>
 		<repository>
 			<id>deploymentRepo</id>
 			<name>Nexus Repository</name>
 			<url>http://172.0.10.55:8081/repository/maven-releases/</url>
 		</repository>
-	</distributionManagement>
+    </distributionManagement>
     <build>
         <plugins>
             <plugin>
